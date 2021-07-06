@@ -1,0 +1,6 @@
+p 'Donnez moi un nombre'
+STDOUT.flush
+n=gets.to_i
+(n-1).times do
+    p'Bonjour, toi ?'
+end

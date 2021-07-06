@@ -1,0 +1,4 @@
+p 'Quelle est votre année de naissance ?'
+STDOUT.flush
+année = gets.to_i
+p "#{année}"

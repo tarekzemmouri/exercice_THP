@@ -1,0 +1,4 @@
+p 'Pouvez vous me dire votre prènom, s\'il vous plait'
+STDOUT.flush
+prènom = gets.chomp
+p 'Bonjour, ' +prènom

@@ -1,0 +1,6 @@
+p 'Donnez moi un nombre'
+STDOUT.flush
+c= gets.chomp.to_i
+for i in 0..c  
+    print  "#{i}" "\n"
+end

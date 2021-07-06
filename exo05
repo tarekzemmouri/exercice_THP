@@ -1,0 +1,6 @@
+p 'Donnez moi un nombre'
+STDOUT.flush
+n=gets.to_i
+n.times do
+    p'Salut, ça farte ?'
+end

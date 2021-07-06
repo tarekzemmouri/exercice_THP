@@ -1,0 +1,5 @@
+p 'Quelle est votre age ?'
+STDOUT.flush
+age = gets.to_i
+p "Votre age est de #{age}"
+p "En 2017 votre age étais de #{age-4}"
