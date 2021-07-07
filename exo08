@@ -1,0 +1,8 @@
+p 'Donnez moi un numéro ou chiffre pour commencer le compte à rebours'
+STDOUT.flush
+Rebours = gets.chomp.to_i
+min = 0
+while Rebours> min
+    p "#{Rebours-1}"
+     Rebours-=1
+end

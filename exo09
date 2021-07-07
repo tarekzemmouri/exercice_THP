@@ -1,0 +1,16 @@
+p 'Donnez nous un nombre pour construire votre magnifique pyramide !'
+STDOUT.flush
+Pyramide = gets.chomp.to_i
+if (Pyramide>1) && (Pyramide<25) 
+    then p 'Votre Pyramide sera MAGNIFIQUE!'
+    else p 'Veillez saisir un autre nombre svp'
+    Pyramide = gets.chomp.to_i
+end
+i=1
+espace= ' '
+Caractère = "#"
+while i< Pyramide
+    nespace= (Pyramide-i)
+    p (espace*nespace) + (Caractère*i)
+    i+=1
+end
